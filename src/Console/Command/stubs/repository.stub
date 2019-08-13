@@ -1,0 +1,10 @@
+<?php
+
+namespace DummyNamespace;
+
+use Hpolthof\Laravel\Repository\Repository;
+
+class DummyClass extends Repository
+{
+
+}

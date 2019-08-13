@@ -1,0 +1,40 @@
+{
+  "name": "hpolthof/repository",
+  "description": "A simple Repository Pattern implementation for Laravel 5",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hi@olthof.tech"
+    }
+  ],
+
+
+  "require": {
+    "laravel/framework": "^5.8"
+  },
+
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Hpolthof\\Laravel\\Repository\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Hpolthof\\Laravel\\Repository\\Tests\\": "tests/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hpolthof\\Laravel\\Repository\\Providers\\ServiceProvider"
+      ]
+    }
+  }
+}
